@@ -32,7 +32,8 @@ public class testFacebook {
 		WebDriverWait espera = new WebDriverWait(driver, 10);
 		
 		WebElement buscar = driver.findElement(By.className("_1frb"));
-		buscar.sendKeys("Felipe Molina Callejas");
+		buscar.sendKeys("Juan Camilo rivera");
+		buscar.sendKeys("Felipe Molinca Callejas");
 		Actions act = new Actions(driver);
 		act.sendKeys(Keys.ENTER).perform();
 		robot.mouseMove(531, 411);
